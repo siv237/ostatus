@@ -1,4 +1,0 @@
-ostatus
-=======
-
-openvpn web status
