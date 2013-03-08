@@ -56,7 +56,7 @@ $from_addr = explode(":", $row[2]);
 
           echo "<tr>" .
                "<td>" . $row[1] .
-               "<td><a href=http://http://1whois.ru/?url=" . $from_addr[0] .">".$from_addr[0]."</a>" .
+               "<td><a href=http://1whois.ru/?url=" . $from_addr[0] .">".$from_addr[0]."</a>" .
                "<td><a href=http://" . $row[3] .">".$row[3]."</a>" .
                "<td>" . file_size($row[4]) .
                "<td>" . file_size($row[5]) .
